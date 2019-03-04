@@ -10,10 +10,10 @@ Display files and directories in a table
 
 ### Example
 
-![file table](https://blog.gcauvet-dev.com/img/1c/file-table.png "file table")
+![file table](https://www.smaha-consulting.com/wp-content/uploads/2019/03/file-table.png "file table")
 
-### [Blog post](https://blog.gcauvet-dev.com/?d=2018/01/09/18/31/36-display-files-and-directories-in-a-table)
+### [Blog post](https://www.smaha-consulting.com/display-files-and-directories-in-a-table/)
 
 ---
 
-2018 - Gcauvet https://gcauvet-dev.com/
+2019 - Smaha - https://www.smaha-consulting.com
