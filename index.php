@@ -78,10 +78,10 @@
 			foreach ($files as $fileIndex => $file)  {
 
 				$fileIndex--;
-
+				
 				print " <tr>
 							<td>".$fileIndex."</td>
-							<td class='alignLeft'><a href=".str_replace("\\",'/',"https://".$_SERVER['HTTP_HOST'].substr(getcwd(),strlen($_SERVER['DOCUMENT_ROOT'])))."/".rawurlencode($file).">".preg_replace('/\\.[^.\\s]{3,4}$/', '', $file)."</a></td>
+							<td class='alignLeft'><a href='".rawurlencode($file)."'>".preg_replace('/\\.[^.\\s]{3,4}$/', '', $file)."</a></td>
 							<td>".pathinfo($file, PATHINFO_EXTENSION)."</td>
 							<td>".number_format(filesize($file)/ 1048576, 2)." Mb</td>
 							<td>".date ("d/m/Y H:i:s", filemtime($file))."</td>
